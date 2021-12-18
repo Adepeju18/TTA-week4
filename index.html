@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Application Form</title>
+        <link rel="stylesheet" href="myscript.js2.css" type="text/css"/>
+        <script type="text/javascript" src="myscript.js"></script>
+    </head>
+    <body>
+        <h1>Application Form</h1>
+        <form>
+            <ul>
+                <li><label for="name">FULL NAME</label></li>
+                <li><input type="text" name="name"></li>
+                <li><label for="email">Email Address</label></li>
+                <li><input type="text" name="email"></li>
+                <li><label for="mobile">Mobile Number</label></li>
+                <li><input type="number" name="mobile"></li>
+                <li><label for="country">Country:</label></li>
+                <li><select  id="country" name="country">
+                    <option value="Default">Select</option>
+                    <option value="AF">United Kingdom</option>
+                    <option value="AF">Australia</option>
+                    <option value="AS">Russia</option>
+                    <option value="AD">USA</option>
+                    <option value="AL">Canada</option>
+                </select></li>
+                <li><label id="ex">Gender</label></li>
+                <li><label><input type="radio" name="msex" value="Male"/>Male</label></li>
+                <li><label></label><input type="radio" name="fsex" value="Female"/>Female</label></li>
+                <li><label>Hobbies(optional)</label></li>
+                <li><input type="checkbox" name="sp" value="sp" checked/><span>Sports</span></li>
+                <li><input type="checkbox" name="mo" value="mo"/><span>Movies</span></li>
+                <li><input type="checkbox" name="mu" value="mu"/><span>Music</span></li>
+                <li><input type="submit" name="submit" value="Submit"  id="sumbit"/></li>
+        
+    </ul>
+    </form>
+    </body>
+</html>
